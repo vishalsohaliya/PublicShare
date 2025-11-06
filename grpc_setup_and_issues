@@ -1,0 +1,34 @@
+grpc hosting in server
+  Host your gRPC workloads on App Service with .NET on Windows > https://www.youtube.com/watch?v=8Kjmq3BNQ6U
+  https://github.com/grpc/grpc-dotnet/issues/1698
+  https://github.com/dotnet/aspnetcore/issues/9020
+
+Configuration needed in the appsettings file
+
+   //Setting One Work Ok
+   "Kestrel": {
+     "Endpoints": {
+       "http": {
+         "Url": "http://0.0.0.0:80"
+       },
+       "http1": { "Url": "http://0.0.0.0:5002" },
+  
+       "http2": {
+         "Url": "http://0.0.0.0:5001",
+         "Protocols": "Http2"
+       }
+     }
+   }
+  
+     //"Kestrel": {
+     //  "Endpoints": {
+     //    "gRPC": {
+     //      "Url": "https://localhost:5000",
+     //      "Protocols": "Http2"
+     //    },
+     //    "WebApi": {
+     //      "Url": "http://localhost:5001",
+     //      "Protocols": "Http1"
+     //    }
+     //  }
+     //}
