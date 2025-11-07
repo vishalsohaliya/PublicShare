@@ -32,3 +32,10 @@ Configuration needed in the appsettings file
      //    }
      //  }
      //}
+
+//GRPC Service in same port with other rest/signR/websocket
+https://medium.com/@fzambia/serving-secure-websocket-and-grpc-over-same-port-with-nginx-659662a18368
+https://www.reddit.com/r/dotnet/comments/jk6rgg/using_same_microservice_to_deploy_grpc_service/
+https://tehgm.net/blog/nginx-aspnetcore-grpc-rest/
+https://dev.to/techschoolguru/load-balancing-grpc-service-with-nginx-3fio
+https://github.com/kubernetes/ingress-nginx/issues/6269
