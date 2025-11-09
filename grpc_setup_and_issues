@@ -39,3 +39,11 @@ https://www.reddit.com/r/dotnet/comments/jk6rgg/using_same_microservice_to_deplo
 https://tehgm.net/blog/nginx-aspnetcore-grpc-rest/
 https://dev.to/techschoolguru/load-balancing-grpc-service-with-nginx-3fio
 https://github.com/kubernetes/ingress-nginx/issues/6269
+
+https://github.com/grpc/grpc-web/tree/master/net/grpc/gateway/examples/helloworld#write-client-code
+https://github.com/adjoeio/grpc-react/blob/main/Dockerfile-envoy --envoy proxy
+https://learn.microsoft.com/en-us/aspnet/core/grpc/grpcweb?view=aspnetcore-9.0 --grpc-web and why smae port require TLS
+https://adjoe.io/company/engineer-blog/working-with-grpc-web/
+https://learn.microsoft.com/en-us/aspnet/core/grpc/aspnetcore?view=aspnetcore-9.0&tabs=visual-studio#protocol-negotiation --protocol negotiation and other server and proxy details
+https://stackoverflow.com/questions/73324802/how-can-i-call-grpc-endpoint-from-next-js-application-inside-of-a-functional-com
+https://learn.microsoft.com/en-us/aspnet/core/grpc/json-transcoding?view=aspnetcore-9.0
